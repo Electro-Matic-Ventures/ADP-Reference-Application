@@ -61,7 +61,7 @@ class SettingsValueSelect(Tile):
                 padding: 5px;
             }}
             QComboBox::down-arrow {{
-                image: url("./src/graphics/caret-down.png"); 
+                image: url("./src/graphics/caret-down-{self.settings.value.caret.size}.png");
                 width: 23px;
                 height: 17px;
             }}
